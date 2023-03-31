@@ -57,7 +57,7 @@ train_data = torch.from_numpy(train_data).float()
 train_label = torch.from_numpy(train_label).long()
 validation_data = torch.from_numpy(validation_data).float()
 
-for epoch in range(300):
+for epoch in range(3000):
     #データ全ての合計のロス
     running_loss = 0.0
     # optimizerの初期化
